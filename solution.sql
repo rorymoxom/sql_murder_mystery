@@ -18,8 +18,8 @@ from person
 where name like 'Annabel Miller'
 limit 10
 
-Annabel SSN = 318771143
-id = 14887
+-- Annabel SSN = 318771143
+-- id = 14887
 
 
 select 
@@ -32,20 +32,19 @@ where address_street_name like 'Northwestern Dr'
 Order by address_number DESC
 limit 10
 
-Morty SSN = 111564949
-id = 16371
+--Morty SSN = 111564949
+--id = 16371
 
 select * 
 from interview
 where person_id = 14887 or person_id = 16371
 limit 10
 
-membership number on the bag started with "48Z". Only gold members have those bags. The man got into a car with a plate that included "H42W".
+--membership number on the bag started with "48Z". Only gold members have those bags. The man got into a car with a plate that included "H42W".
+--I recognized the killer from my gym when I was working out last week on January the 9th.
 
- I recognized the killer from my gym when I was working out last week on January the 9th.
-
-Joe Germuska = 48Z7A
-Jermey Bowers = 48Z55
+--Joe Germuska = 48Z7A
+--Jermey Bowers = 48Z55
 
 select *
 from get_fit_now_member as gf
@@ -55,12 +54,12 @@ where gf.id like '48Z%'
 and plate_number like '%H42W%'
 limit 10
 
-killer person id = 67318
+--killer person id = 67318
 
-5'5 woman
-red hair
-tesla model S
-SQL Symphony Concert Dec 2017
+--5'5 woman
+--red hair
+--tesla model S
+--SQL Symphony Concert Dec 2017
 
 with concert as (
 select *,
